@@ -18,7 +18,7 @@ export default function HomePage() {
       description="Creo páginas web modernas para negocios locales en Costa Rica. Rápidas, profesionales y diseñadas para atraer más clientes."
       primaryButton={{
         text: "💬 Escribir por WhatsApp",
-        href: "https://wa.me/50664264652?text=Hola%20👋%20Bienvenido,%20¿cómo%20puedo%20ayudarte%20con%20tu%20negocio%20hoy",
+        href: "https://wa.me/50664264652?text=Hola%20quiero%20informacion%20sobre%20la%20pagina%20web",
       }}
       secondaryButton={{
         text: "Ver mis trabajos →",
@@ -208,7 +208,7 @@ export default function HomePage() {
       text="Todo esto en español. Escríbeme y empecemos hoy mismo."
       primaryButton={{
         text: "💬 Escribir por WhatsApp",
-        href: "https://wa.me/50664264652",
+        href: "https://wa.me/50664264652?text=Hola%20quiero%20informacion%20sobre%20la%20pagina%20web",
       }}
       secondaryButton={{
         text: "Ver trabajos",
