@@ -13,7 +13,7 @@ export default function HomePage() {
   <div id="hero" data-section="hero">
     <SectionErrorBoundary name="hero">
           <HeroBillboardTiltedCarousel
-      tag="Freelance Web Designer"
+      tag=""
       title="Tu negocio merece una página que vende"
       description="Creo páginas web modernas para negocios locales en Costa Rica. Rápidas, profesionales y diseñadas para atraer más clientes."
       primaryButton={{
