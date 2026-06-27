@@ -53,23 +53,24 @@ export default function Layout() {
         <Outlet />
       </main>
       <SectionErrorBoundary name="footer">
-        <FooterBrand
-      brand="Kevin Castellon - Diseño Web CR"
-      columns={[
-        {
-          items: [
-            {
-              label: "Privacidad",
-              href: "#",
-            },
-            {
-              label: "Términos",
-              href: "#",
-            },
-          ],
-        },
-      ]}
-    />
+        <footer className="w-full py-12 bg-background">
+          <div className="w-content-width mx-auto flex flex-col items-center gap-6">
+            <div className="text-xl font-medium text-foreground">Kevin Castellon - Diseño Web CR</div>
+            <div className="flex flex-wrap justify-center gap-6 text-sm text-accent">
+              <a href="#hero" className="hover:text-foreground transition-colors">Inicio</a>
+              <a href="#features" className="hover:text-foreground transition-colors">Servicios</a>
+              <a href="#metrics" className="hover:text-foreground transition-colors">Resultados</a>
+              <a href="#testimonials" className="hover:text-foreground transition-colors">Testimonios</a>
+              <a href="#faq" className="hover:text-foreground transition-colors">FAQ</a>
+              <a href="#contact" className="hover:text-foreground transition-colors">Contacto</a>
+            </div>
+            <div className="flex flex-wrap justify-center gap-6 text-xs text-accent/60 mt-4">
+              <a href="#" className="hover:text-foreground transition-colors">Política de Privacidad</a>
+              <a href="#" className="hover:text-foreground transition-colors">Términos y Condiciones</a>
+              <span>© {new Date().getFullYear()} Kevin Castellon. Todos los derechos reservados.</span>
+            </div>
+          </div>
+        </footer>
       </SectionErrorBoundary>
     </StyleProvider>
   );
