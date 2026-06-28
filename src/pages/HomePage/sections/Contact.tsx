@@ -11,7 +11,7 @@ export default function ContactSection(): React.JSX.Element {
         <SectionErrorBoundary name="contact">
               <ContactCta
           tag="¡Hablemos ahora!"
-          text="Todo esto en español. Escríbeme y empecemos hoy mismo."
+          text=" Escríbeme y empecemos hoy mismo."
           primaryButton={{
             text: "💬 Escribir por WhatsApp",
             href: "https://wa.me/50664264652?text=Hola%20quiero%20informacion%20sobre%20la%20pagina%20web",
