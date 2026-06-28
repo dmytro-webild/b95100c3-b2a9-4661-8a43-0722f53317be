@@ -10,7 +10,8 @@ export default function AboutSection(): React.JSX.Element {
     <div id="about" data-section="about">
         <SectionErrorBoundary name="about">
               <AboutText
-          title="Diseño web enfocado en resultados locales en Costa Rica. Con años de experiencia ayudando a emprendedores, transformo ideas en plataformas digitales que convierten visitantes en clientes fieles."
+          title='¿Tenés un buen negocio pero en internet nadie te encuentra?"
+Eso tiene solución. Creo páginas web para que las personas que ya están buscando lo que vos ofrecés, te encuentren a vos primero — y elijan llamarte a vos.'
         />
         </SectionErrorBoundary>
       </div>
